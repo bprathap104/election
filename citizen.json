@@ -1,0 +1,46 @@
+{
+    "citizens": [
+        {
+            "name" : "Saran",
+            "age": "34",
+            "gender": "male",
+            "aadhar": "38366543219"
+        },
+        {
+            "name" : "Chiradip",
+            "age": "23",
+            "gender": "male",
+            "aadhar": "38366543222"
+        },
+        {
+            "name" : "Ravi",
+            "age": "33",
+            "gender": "male",
+            "aadhar": "38372543219"
+        },
+        {
+            "name" : "Dharika",
+            "age": "23",
+            "gender": "female",
+            "aadhar": "38366322219"
+        },
+        {
+            "name" : "Barath",
+            "age": "23",
+            "gender": "male",
+            "aadhar": "38366543111"
+        },
+        {
+            "name" : "Venkat",
+            "age": "40",
+            "gender": "male",
+            "aadhar": "46632543219"
+        },
+        {
+            "name" : "Kombaraj",
+            "age": "37",
+            "gender": "male",
+            "aadhar": "38366523459"
+        }
+    ]
+}

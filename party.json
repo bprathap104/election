@@ -1,0 +1,16 @@
+{
+    "parties": [
+        {
+            "party_id" : "1",
+            "party_name": "AAP"
+        },
+        {
+            "party_id" : "2",
+            "party_name": "BJP"
+        },
+        {
+            "party_id" : "3",
+            "party_name": "Congress"
+        }
+    ]
+}
