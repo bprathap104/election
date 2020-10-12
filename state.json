@@ -1,0 +1,24 @@
+{
+    "states": [
+        {
+            "state_id" : "WB",
+            "state_name": "WestBengal"
+        },
+        {
+            "state_id" : "DL",
+            "state_name": "Delhi"
+        },
+        {
+            "state_id" : "AP",
+            "state_name": "AndhraPradesh"
+        },
+        {
+            "state_id" : "TN",
+            "state_name": "TamilNadu"
+        },
+        {
+            "state_id" : "MH",
+            "state_name": "Maharastra"
+        }
+    ]
+}
