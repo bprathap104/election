@@ -13,9 +13,9 @@ class Campaign:
     """
     def __init__(self, election_date):
         self.date = convert_string_to_date(election_date)
-    def display_campaign_end_date(self):
+    def __str__(self):
         campaign_end_date = self.date - timedelta(days=3) 
-        print(f'The Campaign End Date is : {campaign_end_date}')
+        return(f'The Campaign End Date is : {campaign_end_date}')
 
 class Voting:
     """
@@ -23,8 +23,8 @@ class Voting:
     """
     def __init__(self, election_date):
         self.date = convert_string_to_date(election_date)
-    def display_vote_counting_date(self):
-        print(f'The Election Date is : {self.date}')
+    def __str__(self):
+        return(f'The Election Date is : {self.date}')
 
 class Counting:
     """
@@ -32,9 +32,9 @@ class Counting:
     """
     def __init__(self, election_date):
         self.date = convert_string_to_date(election_date)
-    def display_vote_counting_date(self):
+    def __str__(self):
         vote_counting_date = self.date + timedelta(days=3) 
-        print(f'The Counting Date is : {vote_counting_date}')
+        return(f'The Counting Date is : {vote_counting_date}')
 
 
 class StateElection(IElection):
@@ -47,9 +47,9 @@ class StateElection(IElection):
         self.voting = Voting(self.date)
         self.counting = Counting(self.date)
     def display_election_details(self):
-        self.voting.display_vote_counting_date()
-        self.campaign.display_campaign_end_date()
-        self.counting.display_vote_counting_date()
+        print(self.voting)
+        print(self.campaign)
+        print(self.counting)
 
 class CentralElection(IElection):
     """
