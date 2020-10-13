@@ -66,9 +66,6 @@ def handle_input():
         else:
             print("Invalid menu option")
 
-def display_sub_menu_state_election():
-    pass
-
 def print_main_menu():
     print()
     print('|--------------|')

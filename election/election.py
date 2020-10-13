@@ -87,9 +87,6 @@ class StateElection(IElection):
             return(False)
         se_file.close()
 
-
-
-
 class CentralElection(IElection):
     """
     In this calss, we define the methods & attributes required for a CentralElection
