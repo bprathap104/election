@@ -16,7 +16,10 @@ class Candidate(Citizen):
         self.party = party
     def add_candidate(self):
         if self.is_adult():
-            print(f'{self.name} is eligible for being a candidate')
+            if self.is_citizen():
+                print(f'{self.name} is eligible for being a candidate')
+            else:
+                print(f'{self.name} is not elgible for being a candiate')
         else:
             print(f'{self.name} is not elgible for being a candiate')
 

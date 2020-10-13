@@ -4,43 +4,50 @@
             "name" : "Saran",
             "age": "34",
             "gender": "male",
-            "aadhar": "38366543219"
+            "aadhar": "38366543219",
+            "state_code": "TN"
         },
         {
             "name" : "Chiradip",
             "age": "23",
             "gender": "male",
-            "aadhar": "38366543222"
+            "aadhar": "38366543222",
+            "state_code": "WB"
         },
         {
             "name" : "Ravi",
             "age": "33",
             "gender": "male",
-            "aadhar": "38372543219"
+            "aadhar": "38372543219",
+            "state_code": "DL"
         },
         {
             "name" : "Dharika",
             "age": "23",
             "gender": "female",
-            "aadhar": "38366322219"
+            "aadhar": "38366322219",
+            "state_code": "TN"
         },
         {
             "name" : "Barath",
             "age": "23",
             "gender": "male",
-            "aadhar": "38366543111"
+            "aadhar": "38366543111",
+            "state_code": "TN"
         },
         {
             "name" : "Venkat",
             "age": "40",
             "gender": "male",
-            "aadhar": "46632543219"
+            "aadhar": "46632543219",
+            "state_code": "TN"
         },
         {
             "name" : "Kombaraj",
             "age": "37",
             "gender": "male",
-            "aadhar": "38366523459"
+            "aadhar": "38366523459",
+            "state_code": "TN"
         }
     ]
 }
