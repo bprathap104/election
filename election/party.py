@@ -1,4 +1,6 @@
 from election.citizen import Citizen
+import csv
+
 class Party:
     """
     In this class, we defines attributes & methods for a party 
@@ -11,17 +13,17 @@ class Candidate(Citizen):
     """
     In this class, we define attributes & methods for a candidate
     """
-    def __init__(self, name, age, gender, aadhar, party):
+    def __init__(self, name, age, gender, aadhar, party, state_code, year_of_election):
         super().__init__(name, age, gender, aadhar)
+        self.state_code = state_code
+        self.year_of_election = year_of_election
         self.party = party
     def add_candidate(self):
-        if self.is_adult():
-            if self.is_citizen():
-                print(f'{self.name} is eligible for being a candidate')
-            else:
-                print(f'{self.name} is not elgible for being a candiate')
-        else:
-            print(f'{self.name} is not elgible for being a candiate')
+        with open('candidate.csv', 'a',newline='\n') as ca_file:
+            writer = csv.writer(ca_file)
+            writer.writerow([self.state_code, self.year_of_election, self.name, self.age, self.aadhar, self.party])
+        print(f'{self.name} is eligible for being a candidate')
+        ca_file.close()
 
 class Voter(Citizen):
     """

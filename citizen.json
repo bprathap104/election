@@ -2,7 +2,7 @@
     "citizens": [
         {
             "name" : "Saran",
-            "age": "34",
+            "age": "11",
             "gender": "male",
             "aadhar": "38366543219",
             "state_code": "TN"
